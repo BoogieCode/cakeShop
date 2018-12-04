@@ -1,4 +1,5 @@
-Cheese Cake 5.0 21
-Orange Cake 30.0 18
-Other Cheese Cake 30.0 19
-Chocolate Cake 30.0 33
+CheeseCake 5000 21
+OrangeCake 3000 18
+OtherCheeseCake 3000 19
+ChocolateCake 3000 33
+LimeCake 2000 24

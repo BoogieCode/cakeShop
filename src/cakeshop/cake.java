@@ -11,7 +11,7 @@ package cakeshop;
  */
 public class cake {
     String name;
-    float quantity;
+    int quantity;
     int price;
     
     cake(){
@@ -19,12 +19,12 @@ public class cake {
         quantity=0;
         price=0;
     }
-    cake(String n,float q,int p){
+    cake(String n,int q,int p){
         name=n;
         quantity=q;
         price=p;
     }
-    void addProduct(String n,float q,int p){
+    void addProduct(String n,int q,int p){
         name=n;
         quantity=q;
         price=p;
@@ -33,10 +33,22 @@ public class cake {
         String product=name+" "+quantity+" "+price;
         return product;
     }
-    float getQuantity(){
+    String getName(){
+    return name;
+    }
+    int getQuantity(){
      return quantity;   
     }
     int getPrice(){
      return price;   
+    }
+    void setQuantity(int q){
+        quantity=q;   
+    }
+    void setPrice(int p){
+        price=p;   
+    }
+    void setName(String n){
+        name=n;
     }
 }
